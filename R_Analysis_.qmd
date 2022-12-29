@@ -18,7 +18,7 @@ editor: visual
 library(readr)
 ```
 
-## Using the R file provided by NLS
+## Importing the data and using the R file provided by NLS for data cleaning
 
 ```{r}
 #| message: false
@@ -932,7 +932,7 @@ categories <- qnames(categories)
 NLSY97 <- new_data
 ```
 
-## Our data cleaning
+## My data cleaning
 
 ```{r}
 #| message: false
