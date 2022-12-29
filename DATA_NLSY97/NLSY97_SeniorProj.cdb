@@ -1,0 +1,1226 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R05363.00    [KEY!SEX]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!SEX, RS GENDER (SYMBOL)
+ 
+COMMENT: Gender of Youth
+ 
+    4599       1 Male
+    4385       2 Female
+       0       0 No Information
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              2        Mean:                1.49
+ 
+Lead In: R00001.00[Default]
+Default Next Question: R05364.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Lead In: None.
+Default Next Question: R05364.02
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Lead In: R05364.01[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R12358.00    [CV_SAMPLE_TYPE]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE TYPE.  CROSS-SECTIONAL OR OVERSAMPLE
+ 
+Sample type: Is the respondent a member of the cross-sectional sample or the 
+oversample?
+ 
+    6748       1 Cross-sectional
+    2236       0 Oversample
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:              1        Mean:                 .75
+ 
+Lead In: R12338.00[Default]
+Default Next Question: R12359.00
+--------------------------------------------------------------------------------
+R13024.00    [CV_HGC_BIO_DAD]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             BIOLOGICAL FATHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's biological father (includes both 
+residential and non-residential fathers).
+ 
+       0       0 NONE
+       1       1 1ST GRADE
+      19       2 2ND GRADE
+      68       3 3RD GRADE
+      59       4 4TH GRADE
+      68       5 5TH GRADE
+     188       6 6TH GRADE
+      92       7 7TH GRADE
+     169       8 8TH GRADE
+     240       9 9TH GRADE
+     329      10 10TH GRADE
+     396      11 11TH GRADE
+    2728      12 12TH GRADE
+     381      13 1ST YEAR COLLEGE
+     736      14 2ND YEAR COLLEGE
+     176      15 3RD YEAR COLLEGE
+     840      16 4TH YEAR COLLEGE
+     113      17 5TH YEAR COLLEGE
+     270      18 6TH YEAR COLLEGE
+      85      19 7TH YEAR COLLEGE
+     162      20 8TH YEAR COLLEGE OR MORE
+       8      95 UNGRADED
+  -------
+    7128
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1188
+TOTAL =========>    8316   VALID SKIP(-4)     668     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             95        Mean:               12.66
+ 
+Lead In: R12044.00[Default]
+Default Next Question: R13025.00
+--------------------------------------------------------------------------------
+R13025.00    [CV_HGC_BIO_MOM]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             BIOLOGICAL MOTHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's biological mother (includes both 
+residential and non-residential mothers).
+ 
+       0       0 NONE
+       6       1 1ST GRADE
+      29       2 2ND GRADE
+      54       3 3RD GRADE
+      52       4 4TH GRADE
+      57       5 5TH GRADE
+     222       6 6TH GRADE
+      69       7 7TH GRADE
+     205       8 8TH GRADE
+     273       9 9TH GRADE
+     428      10 10TH GRADE
+     562      11 11TH GRADE
+    3038      12 12TH GRADE
+     642      13 1ST YEAR COLLEGE
+    1002      14 2ND YEAR COLLEGE
+     248      15 3RD YEAR COLLEGE
+     908      16 4TH YEAR COLLEGE
+     157      17 5TH YEAR COLLEGE
+     227      18 6TH YEAR COLLEGE
+      34      19 7TH YEAR COLLEGE
+      77      20 8TH YEAR COLLEGE OR MORE
+       6      95 UNGRADED
+  -------
+    8296
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     523
+TOTAL =========>    8819   VALID SKIP(-4)     165     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             95        Mean:                12.5
+ 
+Lead In: R13024.00[Default]
+Default Next Question: R13026.00
+--------------------------------------------------------------------------------
+R13026.00    [CV_HGC_RES_DAD]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RESIDENTIAL FATHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's residential father (includes both 
+biological and non-biological fathers).
+ 
+       0       0 NONE
+       1       1 1ST GRADE
+      12       2 2ND GRADE
+      51       3 3RD GRADE
+      56       4 4TH GRADE
+      51       5 5TH GRADE
+     150       6 6TH GRADE
+      69       7 7TH GRADE
+     117       8 8TH GRADE
+     186       9 9TH GRADE
+     195      10 10TH GRADE
+     277      11 11TH GRADE
+    1917      12 12TH GRADE
+     345      13 1ST YEAR COLLEGE
+     720      14 2ND YEAR COLLEGE
+     164      15 3RD YEAR COLLEGE
+     780      16 4TH YEAR COLLEGE
+     119      17 5TH YEAR COLLEGE
+     255      18 6TH YEAR COLLEGE
+      86      19 7TH YEAR COLLEGE
+     153      20 8TH YEAR COLLEGE OR MORE
+       3      95 UNGRADED
+  -------
+    5707
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     367
+TOTAL =========>    6074   VALID SKIP(-4)    2910     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             95        Mean:               12.92
+ 
+Lead In: R13025.00[Default]
+Default Next Question: R13027.00
+--------------------------------------------------------------------------------
+R13027.00    [CV_HGC_RES_MOM]                               Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             RESIDENTIAL MOTHERS HIGHEST GRADE COMPLETED
+ 
+Highest grade completed by respondent's residential mother (includes both 
+biological and non-biological mothers).
+ 
+       0       0 NONE
+       3       1 1ST GRADE
+      28       2 2ND GRADE
+      51       3 3RD GRADE
+      54       4 4TH GRADE
+      54       5 5TH GRADE
+     221       6 6TH GRADE
+      67       7 7TH GRADE
+     183       8 8TH GRADE
+     260       9 9TH GRADE
+     373      10 10TH GRADE
+     517      11 11TH GRADE
+    2870      12 12TH GRADE
+     639      13 1ST YEAR COLLEGE
+     996      14 2ND YEAR COLLEGE
+     251      15 3RD YEAR COLLEGE
+     902      16 4TH YEAR COLLEGE
+     163      17 5TH YEAR COLLEGE
+     246      18 6TH YEAR COLLEGE
+      38      19 7TH YEAR COLLEGE
+      89      20 8TH YEAR COLLEGE OR MORE
+       5      95 UNGRADED
+  -------
+    8010
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     316
+TOTAL =========>    8326   VALID SKIP(-4)     658     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             95        Mean:               12.58
+ 
+Lead In: R13026.00[Default]
+Default Next Question: R12045.00
+--------------------------------------------------------------------------------
+R14826.00    [KEY!RACE_ETHNICITY]                           Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!RACE_ETHNICITY, COMBINED RACE AND ETHNICITY (SYMBOL)
+ 
+COMMENT: Combined race - ethnicity variable
+ 
+    2335       1 Black
+    1901       2 Hispanic
+      83       3 Mixed Race (Non-Hispanic)
+    4665       4 Non-Black / Non-Hispanic
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              4        Mean:                2.79
+ 
+Lead In: R05387.00[Default]
+Default Next Question: R05389.00
+--------------------------------------------------------------------------------
+R37073.00    [HIU-2]                                        Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             AMOUNT OF PARENTS OWN INCOME 1998
+ 
+About how much did you receive (pre-tax)?
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($190,777 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      82           0
+     346           1 TO 4999
+     315        5000 TO 9999
+     482       10000 TO 14999
+     462       15000 TO 19999
+     425       20000 TO 24999
+     395       25000 TO 29999
+     637       30000 TO 39999
+     376       40000 TO 49999
+     218       50000 TO 59999
+     145       60000 TO 69999
+     106       70000 TO 79999
+      46       80000 TO 89999
+      26       90000 TO 99999
+       0      100000 TO 149999
+     117      150000 TO 99999999: 150000+
+  -------
+    4178
+ 
+Refusal(-1)           25
+Don't Know(-2)         3
+TOTAL =========>    4206   VALID SKIP(-4)    4002     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:         190777        Mean:            31218.53
+ 
+Lead In: R37072.00[1:1]
+Default Next Question: R37074.00
+--------------------------------------------------------------------------------
+R37075.00    [HIU-4]                                        Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             AMOUNT OF PARENTS SPOUSE/PARTNERS INCOME 1998
+ 
+About how much did he or she receive (pre-tax)?
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($256,094 for this variable).  Values for all cases
+at or over that level are averaged. That average is then assigned to each of the
+top 2 percent of the cases.
+ 
+      91           0
+     189           1 TO 4999
+     156        5000 TO 9999
+     263       10000 TO 14999
+     268       15000 TO 19999
+     303       20000 TO 24999
+     236       25000 TO 29999
+     415       30000 TO 39999
+     315       40000 TO 49999
+     180       50000 TO 59999
+     141       60000 TO 69999
+      76       70000 TO 79999
+      53       80000 TO 89999
+      26       90000 TO 99999
+      60      100000 TO 149999
+      70      150000 TO 99999999: 150000+
+  -------
+    2842
+ 
+Refusal(-1)           16
+Don't Know(-2)         4
+TOTAL =========>    2862   VALID SKIP(-4)    5346     NON-INTERVIEW(-5)     776
+ 
+Min:              0        Max:         256094        Mean:             36466.1
+ 
+Lead In: R37074.00[1:1]
+Default Next Question: R37076.00
+--------------------------------------------------------------------------------
+R37078.00    [HIU-8]                                        Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             RELATIONSHIP OF HIU RESPONDENT TO YOUTH 1998
+ 
+COMMENT: RELATIONSHIP OF PERSON ANSWERING HOUSEHOLD INCOME UPDATE TO YOUTH
+ 
+    3765       1 MOTHER (BIOLOGICAL OR ADOPTIVE) OF YOUTH
+    1036       2 FATHER (BIOLOGICAL OR ADOPTIVE) OF YOUTH
+      46       3 STEP-MOTHER OR FEMALE SPOUSE/PARTNER OF YOUTH'S PARENT
+      92       4 STEP-FATHER OR MALE SPOUSE/PARTNER OF YOUTH'S PARENT
+     216       5 OTHER PARENT FIGURE (RELATIVE)
+      24       6 OTHER PARENT FIGURE (NON-RELATIVE)
+      17       7 DON'T KNOW RELATIONSHIP TO YOUTH
+     292       8 DON'T KNOW WHO COMPLETED THE FORM
+  -------
+    5488
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5488   VALID SKIP(-4)    2720     NON-INTERVIEW(-5)     776
+ 
+Min:              1        Max:              8        Mean:                1.83
+ 
+Lead In: R37076.00[Default] R37077.00[Default]
+Default Next Question: R37079.00
+--------------------------------------------------------------------------------
+U33146.00    [YEMP_INDCODE-2002.01]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 01 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+      44         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+      31         370 TO 490: MINING
+      44         570 TO 690: UTILITIES
+     409         770: CONSTRUCTION
+     545        1070 TO 3990: MANUFACTURING
+     143        4070 TO 4590: WHOLESALE TRADE
+     546        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+     327        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+     105        6470 TO 6780: INFORMATION AND COMMUNICATION
+     405        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+     730        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+    1386        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+     518        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+     262        8770 TO 9290: OTHER SERVICES
+     283        9370 TO 9590: PUBLIC ADMINISTRATION
+      14        9670 TO 9890: ACTIVE DUTY MILITARY
+     179        9950 TO 9990: ACS SPECIAL CODES
+  -------
+    5971
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      54
+TOTAL =========>    6025   VALID SKIP(-4)     922     NON-INTERVIEW(-5)    2037
+ 
+Min:            170        Max:           9990        Mean:             6532.12
+ 
+Lead In: U33145.00[Default]
+Default Next Question: U33147.00
+--------------------------------------------------------------------------------
+U33147.00    [YEMP_INDCODE-2002.02]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 02 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+      18         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+      15         370 TO 490: MINING
+       7         570 TO 690: UTILITIES
+     174         770: CONSTRUCTION
+     153        1070 TO 3990: MANUFACTURING
+      53        4070 TO 4590: WHOLESALE TRADE
+     230        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+     140        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+      31        6470 TO 6780: INFORMATION AND COMMUNICATION
+     118        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+     315        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+     495        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+     266        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+     114        8770 TO 9290: OTHER SERVICES
+      59        9370 TO 9590: PUBLIC ADMINISTRATION
+       2        9670 TO 9890: ACTIVE DUTY MILITARY
+      33        9950 TO 9990: ACS SPECIAL CODES
+  -------
+    2223
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      15
+TOTAL =========>    2238   VALID SKIP(-4)    4709     NON-INTERVIEW(-5)    2037
+ 
+Min:            170        Max:           9990        Mean:             6508.37
+ 
+Lead In: U33146.00[Default]
+Default Next Question: U33148.00
+--------------------------------------------------------------------------------
+U33148.00    [YEMP_INDCODE-2002.03]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 03 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       5         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       3         370 TO 490: MINING
+       1         570 TO 690: UTILITIES
+      29         770: CONSTRUCTION
+      44        1070 TO 3990: MANUFACTURING
+      18        4070 TO 4590: WHOLESALE TRADE
+      66        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+      34        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+      13        6470 TO 6780: INFORMATION AND COMMUNICATION
+      35        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+      97        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+     169        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+      97        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+      44        8770 TO 9290: OTHER SERVICES
+      15        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+      11        9950 TO 9990: ACS SPECIAL CODES
+  -------
+     681
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>     682   VALID SKIP(-4)    6265     NON-INTERVIEW(-5)    2037
+ 
+Min:            170        Max:           9990        Mean:             6893.15
+ 
+Lead In: U33147.00[Default]
+Default Next Question: U33149.00
+--------------------------------------------------------------------------------
+U33149.00    [YEMP_INDCODE-2002.04]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 04 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       0         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       0         370 TO 490: MINING
+       1         570 TO 690: UTILITIES
+       9         770: CONSTRUCTION
+      13        1070 TO 3990: MANUFACTURING
+       6        4070 TO 4590: WHOLESALE TRADE
+      26        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+      11        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+       2        6470 TO 6780: INFORMATION AND COMMUNICATION
+      10        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+      29        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+      47        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+      23        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+      17        8770 TO 9290: OTHER SERVICES
+       3        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+       5        9950 TO 9990: ACS SPECIAL CODES
+  -------
+     202
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     202   VALID SKIP(-4)    6745     NON-INTERVIEW(-5)    2037
+ 
+Min:            670        Max:           9990        Mean:             6860.84
+ 
+Lead In: U33148.00[Default]
+Default Next Question: U33150.00
+--------------------------------------------------------------------------------
+U33150.00    [YEMP_INDCODE-2002.05]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 05 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       0         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       0         370 TO 490: MINING
+       0         570 TO 690: UTILITIES
+       5         770: CONSTRUCTION
+       5        1070 TO 3990: MANUFACTURING
+       1        4070 TO 4590: WHOLESALE TRADE
+      11        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+       2        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+       3        6470 TO 6780: INFORMATION AND COMMUNICATION
+       1        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+      12        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+      12        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+      15        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+       5        8770 TO 9290: OTHER SERVICES
+       1        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+       0        9950 TO 9990: ACS SPECIAL CODES
+  -------
+      73
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      73   VALID SKIP(-4)    6874     NON-INTERVIEW(-5)    2037
+ 
+Min:            770        Max:           9480        Mean:             6749.34
+ 
+Lead In: U33149.00[Default]
+Default Next Question: U33151.00
+--------------------------------------------------------------------------------
+U33151.00    [YEMP_INDCODE-2002.06]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 06 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       0         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       0         370 TO 490: MINING
+       0         570 TO 690: UTILITIES
+       1         770: CONSTRUCTION
+       2        1070 TO 3990: MANUFACTURING
+       0        4070 TO 4590: WHOLESALE TRADE
+       5        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+       2        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+       0        6470 TO 6780: INFORMATION AND COMMUNICATION
+       2        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+       2        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+       8        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+      12        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+       4        8770 TO 9290: OTHER SERVICES
+       0        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+       1        9950 TO 9990: ACS SPECIAL CODES
+  -------
+      39
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>      40   VALID SKIP(-4)    6907     NON-INTERVIEW(-5)    2037
+ 
+Min:            770        Max:           9990        Mean:             7358.51
+ 
+Lead In: U33150.00[Default]
+Default Next Question: U33152.00
+--------------------------------------------------------------------------------
+U33152.00    [YEMP_INDCODE-2002.07]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 07 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       0         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       0         370 TO 490: MINING
+       0         570 TO 690: UTILITIES
+       0         770: CONSTRUCTION
+       2        1070 TO 3990: MANUFACTURING
+       0        4070 TO 4590: WHOLESALE TRADE
+       4        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+       1        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+       0        6470 TO 6780: INFORMATION AND COMMUNICATION
+       0        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+       2        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+       3        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+       7        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+       1        8770 TO 9290: OTHER SERVICES
+       0        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+       0        9950 TO 9990: ACS SPECIAL CODES
+  -------
+      20
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      20   VALID SKIP(-4)    6927     NON-INTERVIEW(-5)    2037
+ 
+Min:           1370        Max:           9090        Mean:              7065.5
+ 
+Lead In: U33151.00[Default]
+Default Next Question: U33153.00
+--------------------------------------------------------------------------------
+U33153.00    [YEMP_INDCODE-2002.08]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 08 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       0         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       0         370 TO 490: MINING
+       0         570 TO 690: UTILITIES
+       0         770: CONSTRUCTION
+       1        1070 TO 3990: MANUFACTURING
+       0        4070 TO 4590: WHOLESALE TRADE
+       1        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+       0        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+       0        6470 TO 6780: INFORMATION AND COMMUNICATION
+       0        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+       2        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+       0        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+       2        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+       1        8770 TO 9290: OTHER SERVICES
+       0        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+       0        9950 TO 9990: ACS SPECIAL CODES
+  -------
+       7
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       7   VALID SKIP(-4)    6940     NON-INTERVIEW(-5)    2037
+ 
+Min:           3190        Max:           9170        Mean:             7192.86
+ 
+Lead In: U33152.00[Default]
+Default Next Question: U33154.00
+--------------------------------------------------------------------------------
+U33154.00    [YEMP_INDCODE-2002.09]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 09 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       0         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       0         370 TO 490: MINING
+       0         570 TO 690: UTILITIES
+       0         770: CONSTRUCTION
+       0        1070 TO 3990: MANUFACTURING
+       0        4070 TO 4590: WHOLESALE TRADE
+       0        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+       1        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+       0        6470 TO 6780: INFORMATION AND COMMUNICATION
+       0        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+       2        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+       0        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+       0        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+       2        8770 TO 9290: OTHER SERVICES
+       0        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+       0        9950 TO 9990: ACS SPECIAL CODES
+  -------
+       5
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       5   VALID SKIP(-4)    6942     NON-INTERVIEW(-5)    2037
+ 
+Min:           6170        Max:           9170        Mean:                7912
+ 
+Lead In: U33153.00[Default]
+Default Next Question: U33155.00
+--------------------------------------------------------------------------------
+U33155.00    [YEMP_INDCODE-2002.10]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 10 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       0         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       0         370 TO 490: MINING
+       0         570 TO 690: UTILITIES
+       0         770: CONSTRUCTION
+       0        1070 TO 3990: MANUFACTURING
+       0        4070 TO 4590: WHOLESALE TRADE
+       0        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+       0        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+       0        6470 TO 6780: INFORMATION AND COMMUNICATION
+       0        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+       1        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+       0        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+       0        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+       1        8770 TO 9290: OTHER SERVICES
+       0        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+       0        9950 TO 9990: ACS SPECIAL CODES
+  -------
+       2
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       2   VALID SKIP(-4)    6945     NON-INTERVIEW(-5)    2037
+ 
+Min:           7770        Max:           9090        Mean:                8430
+ 
+Lead In: U33154.00[Default]
+Default Next Question: U33156.00
+--------------------------------------------------------------------------------
+U33156.00    [YEMP_INDCODE-2002.11]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             YEMP, TYPE OF BUS OR INDUSTRY CODE (2002 CENSUS 4-DIGIT) 11 (ROS 
+             ITEM)
+ 
+UNIVERSE: R >= 14 has valid employer
+ 
+NOTE: These are 2002 Census Industry Codes
+ 
+       0         170 TO 290: AGRICULTURE, FORESTRY AND FISHERIES
+       0         370 TO 490: MINING
+       0         570 TO 690: UTILITIES
+       0         770: CONSTRUCTION
+       0        1070 TO 3990: MANUFACTURING
+       0        4070 TO 4590: WHOLESALE TRADE
+       0        4670 TO 5790: RETAIL TRADE
+       0        5890: ARTS, ENTERTAINMENT AND RECREATION SERVICES
+       0        6070 TO 6390: TRANSPORTATION AND WAREHOUSING
+       0        6470 TO 6780: INFORMATION AND COMMUNICATION
+       0        6870 TO 7190: FINANCE, INSURANCE, AND REAL ESTATE
+       0        7270 TO 7790: PROFESSIONAL AND RELATED SERVICES
+       0        7860 TO 8470: EDUCATIONAL, HEALTH, AND SOCIAL SERVICES
+       0        8560 TO 8690: ENTERTAINMENT, ACCOMODATIONS, AND FOOD SERVICES
+       1        8770 TO 9290: OTHER SERVICES
+       0        9370 TO 9590: PUBLIC ADMINISTRATION
+       0        9670 TO 9890: ACTIVE DUTY MILITARY
+       0        9950 TO 9990: ACS SPECIAL CODES
+  -------
+       1
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       1   VALID SKIP(-4)    6946     NON-INTERVIEW(-5)    2037
+ 
+Min:           9170        Max:           9170        Mean:                9170
+ 
+Lead In: U33155.00[Default]
+Default Next Question: U33157.00
+--------------------------------------------------------------------------------
+U34379.00    [CV_AGE_INT_DATE]                              Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             RS AGE AT INTERVIEW DATE
+ 
+Age as of interview date.
+ 
+       0          33
+     194          34
+    1353          35
+    1396          36
+    1439          37
+    1424          38
+    1087          39
+      54          40
+  -------
+    6947
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6947   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2037
+ 
+Min:             34        Max:             40        Mean:               36.87
+ 
+Lead In: U34378.00[Default]
+Default Next Question: U34380.00
+--------------------------------------------------------------------------------
+U34380.00    [CV_CENSUS_REGION]                             Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             CENSUS REGION OF RESIDENCE
+ 
+Census region of the residence as of the survey date.
+ 
+COMMENT: A valid skip (-4) indicates a residence outside of the United States.
+ 
+    1042       1 Northeast (CT, ME, MA, NH, NJ, NY, PA, RI, VT)
+    1409       2 North Central (IL, IN, IA, KS, MI, MN, MO, NE, OH, ND, SD, WI)
+    2869       3 South (AL, AR, DE, DC, FL, GA, KY, LA, MD, MS, NC, OK, SC, TN ,
+                      TX, VA, WV)
+    1553       4 West (AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA, WY)
+  -------
+    6873
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    6875   VALID SKIP(-4)      72     NON-INTERVIEW(-5)    2037
+ 
+Min:              1        Max:              4        Mean:                2.72
+ 
+Lead In: U34379.00[Default]
+Default Next Question: U34381.00
+--------------------------------------------------------------------------------
+U34440.00    [CV_INCOME_FAMILY]                             Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             GROSS FAMILY INCOME
+ 
+Gross family income in the previous year.
+ 
+NOTE: /*Topcoded at the 2% level.  Truncated values are applied to the top 2 
+percent of respondents with valid non-missing responses.  The average value of 
+the top 2 percent of cases is used as the value.  Negative values of -1, -2, -3,
+-4, or -5 do not reflect negative monetary amounts; these numbers represent 
+standard NLSY97 codes.*/
+ 
+       0     -999999 TO -3000: < -2999
+       0       -2999 TO -2000
+       0       -1999 TO -1000
+       0        -999 TO -1
+     258           0
+      13           1 TO 1000
+       9        1001 TO 2000
+      29        2001 TO 3000
+      45        3001 TO 5000
+     108        5001 TO 10000
+     245       10001 TO 20000
+     336       20001 TO 30000
+     407       30001 TO 40000
+     378       40001 TO 50000
+     582       50001 TO 65000
+     552       65001 TO 80000
+     643       80001 TO 100000
+    1005      100001 TO 150000
+     416      150001 TO 200000
+     389      200001 TO 999999: 200001+
+  -------
+    5415
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)    1532
+TOTAL =========>    6947   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2037
+ 
+Min:              0        Max:         467966        Mean:            92538.32
+ 
+Lead In: U34439.00[Default]
+Default Next Question: U34441.00
+--------------------------------------------------------------------------------
+U34445.00    [CV_HIGHEST_DEGREE_EVER_EDT]                   Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST DEGREE RECEIVED
+ 
+The highest degree received as of the survey date.
+ 
+     506       0 None
+     886       1 GED
+    2748       2 High school diploma (Regular 12 year program)
+     632       3 Associate/Junior college (AA)
+    1397       4 Bachelor's degree (BA, BS)
+     592       5 Master's degree (MA, MS)
+      57       6 PhD
+     104       7 Professional degree (DDS, JD, MD)
+  -------
+    6922
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      25
+TOTAL =========>    6947   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2037
+ 
+Min:              0        Max:              7        Mean:                2.59
+ 
+Lead In: U34444.00[Default]
+Default Next Question: U34446.00
+--------------------------------------------------------------------------------
+U34515.00    [CV_MARSTAT_COLLAPSED]                         Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             RS COLLAPSED MARITAL STATUS
+ 
+Collapsed marital status as of the survey date.
+ 
+    2701       0 Never-married
+    3213       1 Married
+     134       2 Separated
+     830       3 Divorced
+      25       4 Widowed
+  -------
+    6903
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      44
+TOTAL =========>    6947   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2037
+ 
+Min:              0        Max:              4        Mean:                 .88
+ 
+Lead In: U34514.00[Default]
+Default Next Question: U34516.00
+--------------------------------------------------------------------------------
+U34551.00    [CV_DOI_EMPLOYED]                              Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             DATE OF INTERVIEW STATUS - EMPLOYED
+ 
+The respondent was employed at any job during the last full week prior to the 
+date of the interview. Respondents who are associated with an employer but 
+report a with-in job gap during that time are coded as not currently working.
+ 
+    5498       1 Current working at a job
+    1320       0 Not currently working at a job
+      78       2 Military service (but no job) reported
+  -------
+    6896
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      51
+TOTAL =========>    6947   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2037
+ 
+Min:              0        Max:              2        Mean:                 .82
+ 
+Lead In: U34550.00[Default]
+Default Next Question: U34552.00
+--------------------------------------------------------------------------------
+U42823.00    [YINC-1700]                                    Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST YEAR
+ 
+During 2018, how much income did you receive from wages, salary, commissions, or
+tips from all jobs, before deductions for taxes or for anything else?
+ 
+UNIVERSE: R received income from job
+ 
+ 
+NOTE: Truncated values are applied to the top 2 percent of respondents with 
+valid non-missing responses.  The lowest value for the top 2 percent of cases is
+used as the truncation level ($ 178,000 for this variable).  Values for all 
+cases at or over that level are averaged. That average is then assigned to each 
+of the top 2 percent of the cases.
+ 
+      36           0
+     146           1 TO 4999
+     159        5000 TO 9999
+     198       10000 TO 14999
+     232       15000 TO 19999
+     298       20000 TO 24999
+     355       25000 TO 29999
+     768       30000 TO 39999
+     684       40000 TO 49999
+     620       50000 TO 59999
+     490       60000 TO 69999
+     350       70000 TO 79999
+     276       80000 TO 89999
+     163       90000 TO 99999
+     428      100000 TO 149999
+     209      150000 TO 99999999: 150000+
+  -------
+    5412
+ 
+Refusal(-1)           66   (Go To U42824.00)
+Don't Know(-2)       269   (Go To U42824.00)
+TOTAL =========>    5747   VALID SKIP(-4)    1200     NON-INTERVIEW(-5)    2037
+ 
+Min:              0        Max:         328451        Mean:            57217.16
+ 
+Lead In: U42821.00[Default] U42822.00[Default]
+Default Next Question: U42825.00
+--------------------------------------------------------------------------------
+U43289.00    [YSAQF-443]                                    Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             TOTAL # TIMES R ARRESTED SINCE DLI
+ 
+In total, how many times have you been arrested since the last interview on 
+[date of last interview]?
+ 
+UNIVERSE: R answered yes/no to ever been arrested; has been arrested since DLI
+ 
+       0           0
+      95           1
+      29           2
+      10           3
+       4           4
+       4           5
+       1           6
+       0           7
+       2           8
+       0           9
+       0          10
+       0          11
+       0          12
+       0          13
+       0          14
+       3          15 TO 999: 15+
+  -------
+     148
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>     148   VALID SKIP(-4)    6799     NON-INTERVIEW(-5)    2037
+ 
+Min:              1        Max:             50        Mean:                2.22
+ 
+Lead In: U43286.00[1:1]
+Default Next Question: U43290.00
+--------------------------------------------------------------------------------
+U43680.00    [YHEA-100]                                     Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             HOW IS R'S GENERAL HEALTH?
+ 
+Now I would like to ask you some questions about your health.
+ 
+In general, how is your health?
+ 
+UNIVERSE: All
+ 
+    1419       1 Excellent
+    2508       2 Very good
+    2191       3 Good
+     704       4 Fair
+     112       5 Poor
+  -------
+    6934
+ 
+Refusal(-1)            4
+Don't Know(-2)         4
+TOTAL =========>    6942   VALID SKIP(-4)       5     NON-INTERVIEW(-5)    2037
+ 
+Min:              1        Max:              5        Mean:                2.36
+ 
+Lead In: U43678.00[Default]
+Default Next Question: U43681.00
+--------------------------------------------------------------------------------
+U43709.02    [YHEA-CESD-1A~000003]                          Survey Year: 2019
+  PRIMARY VARIABLE
+
+ 
+             CES-D DEPRESSION - DEPRESSED (CESD)
+ 
+Now I am going to read a list of the ways that you might have felt or behaved 
+recently. After each statement, please tell me how often you felt this way 
+during the past week.  During the past week...
+ 
+UNIVERSE: R took pain medication in last month
+ 
+RESPONSE CHOICE: "I felt depressed."
+ 
+    5690       0 Rarely/None of the time/1 Day
+     725       1 Some/A little of the time/1-2 Days
+     280       2 Occasionally/Moderate amount of the time/3-4 Days
+     227       3 Most/All of the time/ 5-7 Days
+  -------
+    6922
+ 
+Refusal(-1)           16
+Don't Know(-2)         4
+TOTAL =========>    6942   VALID SKIP(-4)       5     NON-INTERVIEW(-5)    2037
+ 
+Min:              0        Max:              3        Mean:                 .28
+ 
+Lead In: U43709.01[Default]
+Default Next Question: U43709.03
