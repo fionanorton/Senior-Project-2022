@@ -20,7 +20,7 @@ library(readr)
 
 ## Importing the data and using the R file provided by NLS for data cleaning
 
-```{r}
+```{r, cleaning and importing}
 #| message: false
 new_data <- read_csv("DATA_NLSY97/NLSY97_SeniorProj.csv")
 names(new_data) <- c('R0000100',
@@ -934,7 +934,7 @@ NLSY97 <- new_data
 
 ## My data cleaning
 
-```{r}
+```{r, libraries}
 #| message: false
 library(tidyverse)
 library(tidyselect)
