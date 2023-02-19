@@ -16,9 +16,9 @@ An analysis of the effect of growing up with a female breadwinner on future inco
 
 #### II. Literature Review
 
-#### III. Empirical Analysis 
+#### III. Empirical Analysis
 
-##### a. Data 
+##### a. Data
 
 ##### b. Model Specifications
 
